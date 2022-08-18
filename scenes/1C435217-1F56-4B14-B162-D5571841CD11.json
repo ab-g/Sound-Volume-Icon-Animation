@@ -48,7 +48,8 @@
       "children": [
         "D8E1D3DE-2BB8-4152-AD73-D8CFD5761AB5",
         "A0DAFCA4-98B7-44FF-B61E-24DDEDB47BB9",
-        "69B3343E-0E21-4C30-8FA4-BC470CC0CAF2"
+        "E246A0C3-A3CB-4FCB-9C7E-1E7A53E14CEB",
+        "35BEB4E3-4536-4E1A-B05F-8920520E77DA"
       ]
     },
     {
@@ -77,13 +78,13 @@
               -2.8418201125646192e-08,
               1.7763570511584873e-15,
               0,
-              2.7986514439248822e-08,
-              0.9848096370697021,
-              -0.17364861071109772,
+              2.8418252639994535e-08,
+              1.0000019073486328,
               0,
-              4.934778807808016e-09,
-              0.17364861071109772,
-              0.9848096370697021,
+              0,
+              -1.7763602275320395e-15,
+              5.0480957440858515e-23,
+              1.0000019073486328,
               0,
               0,
               4,
@@ -149,28 +150,19 @@
     },
     {
       "@class": "BaseNode",
-      "color_index": 6,
       "object3D": {
         "@class": "BaseObject3D",
         "id": {
-          "uuid": "69B3343E-0E21-4C30-8FA4-BC470CC0CAF2"
+          "uuid": "E246A0C3-A3CB-4FCB-9C7E-1E7A53E14CEB"
         },
-        "name": "Item 1",
+        "name": "Music_Icon",
         "enabled": true,
         "visible": true,
-        "hitVisible": false,
-        "colliders": [
-          {
-            "@class": "BaseComponentCollider",
-            "colliderId": {
-              "uuid": "3BF92E38-04DF-46A6-A60E-CB76667083A9"
-            }
-          }
-        ],
+        "hitVisible": true,
         "geometry": {
           "@class": "BaseComponentGeometry",
           "meshId": {
-            "uuid": "2DFB2E0B-E99A-4A53-8D30-B57257AF17EB"
+            "uuid": "F8A14493-6A15-4707-BBCC-C3B9F1D2CF1E"
           },
           "static": false,
           "shadowCast": true,
@@ -179,51 +171,85 @@
         "material": {
           "@class": "BaseComponentMaterial",
           "materialId": {
-            "uuid": "4D48F86D-ECE2-462D-8509-5CC70644CDBC"
-          },
-          "mapsStates": 127
-        },
-        "rigidBody": {
-          "@class": "BaseComponentPhysBody",
-          "rigidBodyId": {
-            "uuid": "70D69DB0-8308-441B-BD47-892C70F11781"
-          },
-          "isEnabled": true
+            "uuid": "367C6074-A394-4F91-93FA-B8E34E7D1513"
+          }
         },
         "transform": {
           "@class": "BaseComponentTransformable",
           "localTransforms": {
             "values": [
+              0.07878462970256805,
+              0,
+              -0.013891850598156452,
+              0,
+              0.013054064474999905,
+              0.027361569926142693,
+              0.07403330504894257,
+              0,
+              0.004751286935061216,
+              -0.07517540454864502,
+              0.026945890858769417,
+              0,
+              0,
               1,
-              0,
-              0,
-              0,
-              0,
-              1,
-              0,
-              0,
-              0,
-              0,
-              1,
-              0,
-              0,
-              0,
               0,
               1
             ]
           }
         },
         "metadata": {
-          "importedIdentifier": "Plane_zero",
-          "importedName": "Plane_zero",
+          "importedIdentifier": "",
+          "importedName": "",
           "isBone": false
         }
-      },
-      "asset_id": {
-        "uuid": "2C3ADF7E-395B-47DA-9A78-3DBE397225B5"
-      },
-      "is_asset_root": true,
-      "asset_name": "Floor_200x200"
+      }
+    },
+    {
+      "@class": "BaseNode",
+      "object3D": {
+        "@class": "BaseObject3D",
+        "id": {
+          "uuid": "35BEB4E3-4536-4E1A-B05F-8920520E77DA"
+        },
+        "name": "Icon_Anim",
+        "enabled": true,
+        "visible": true,
+        "hitVisible": true,
+        "timeline": {
+          "@class": "BaseComponentTimeline",
+          "timelineId": {
+            "uuid": "E2E73F17-8E83-44A9-BC84-2D8750CB39BB"
+          }
+        },
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "localTransforms": {
+            "values": [
+              0.07878463715314865,
+              -2.9154678671261536e-11,
+              -0.013891847804188728,
+              0,
+              0.013054060749709606,
+              0.027361592277884483,
+              0.07403329014778137,
+              0,
+              0.004751287400722504,
+              -0.07517537474632263,
+              0.02694590948522091,
+              0,
+              77.46756744384766,
+              -196.50286865234375,
+              171.55967712402344,
+              1
+            ]
+          }
+        },
+        "metadata": {
+          "importedIdentifier": "",
+          "importedName": "",
+          "isBone": false
+        }
+      }
     }
   ],
   "scriptSystem": {
@@ -258,15 +284,20 @@
         "id": {
           "uuid": "E8A9D4B2-4E99-406A-861B-6BA10BE5AA4A"
         }
+      },
+      {
+        "@class": "Script_FogFX",
+        "id": {
+          "uuid": "85D3FDCB-3A00-4F70-888F-08343286DFFD"
+        }
+      },
+      {
+        "@class": "TimeLineScript",
+        "id": {
+          "uuid": "E2E73F17-8E83-44A9-BC84-2D8750CB39BB"
+        }
       }
     ]
   },
-  "assetsNames": [
-    {
-      "key": {
-        "uuid": "2C3ADF7E-395B-47DA-9A78-3DBE397225B5"
-      },
-      "value": "Floor_200x200"
-    }
-  ]
+  "assetsNames": []
 }

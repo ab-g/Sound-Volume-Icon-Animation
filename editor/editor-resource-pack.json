@@ -11,6 +11,9 @@
         "position": -1,
         "timelines": [
           {
+            "uuid": "E2E73F17-8E83-44A9-BC84-2D8750CB39BB"
+          },
+          {
             "uuid": "66442C88-8D89-41F7-9C93-A7795920617B"
           },
           {
@@ -106,5 +109,6 @@
         }
       }
     }
-  ]
+  ],
+  "stateMachines": []
 }

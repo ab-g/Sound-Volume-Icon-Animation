@@ -9,13 +9,23 @@
     "uuid": "E8A9D4B2-4E99-406A-861B-6BA10BE5AA4A"
   },
   "objectToFollow": {
-    "uuid": "69B3343E-0E21-4C30-8FA4-BC470CC0CAF2"
+    "uuid": "E246A0C3-A3CB-4FCB-9C7E-1E7A53E14CEB"
   },
   "isFollowDisabled": false,
   "isAutoCreateCamera": true,
   "isTargetFixation": false,
   "isUseLevelLimits": false,
   "isUseCameraLimits": false,
+  "is3dFollow": false,
+  "isColliderCasting": false,
+  "castingRadius": 0,
+  "castingIndent": 0,
+  "castingTarget": {
+    "uuid": "83761E03-FBCC-4CD4-8BC2-11A8757EB904"
+  },
+  "mouseLookSpeed": 0,
+  "mouseLookLimitMin": 0,
+  "mouseLookLimitMax": 0,
   "isTargetFixationAtStart": false,
   "isTargetFixationX": false,
   "isTargetFixationY": false,
@@ -34,8 +44,8 @@
   "cameraLimitMaxY": 6,
   "cameraLimitMaxZ": 0,
   "cameraOffsetX": -5.921720003243536e-09,
-  "cameraOffsetY": 4,
-  "cameraOffsetZ": 15,
+  "cameraOffsetY": 0,
+  "cameraOffsetZ": 1,
   "cameraOffsetRotation": {
     "values": [
       0,

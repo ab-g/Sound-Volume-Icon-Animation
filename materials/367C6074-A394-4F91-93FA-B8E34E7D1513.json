@@ -1,43 +1,43 @@
 {
   "@class": "Material",
   "id": {
-    "uuid": "4D48F86D-ECE2-462D-8509-5CC70644CDBC"
+    "uuid": "367C6074-A394-4F91-93FA-B8E34E7D1513"
   },
-  "name": "Gray",
-  "renderingType": "opaque",
+  "name": "Music Icon",
+  "renderingType": "cutout",
   "blendingType": "normal",
   "detailType": "none",
   "lightningType": "perPixel",
   "colorsType": "no",
-  "shadingType": "pbr",
+  "shadingType": "glow",
   "sideType": "front",
   "depthType": "default",
   "ambient": {
     "values": [
-      0,
-      0,
-      0
+      0.33000001311302185,
+      0.33000001311302185,
+      0.33000001311302185
     ]
   },
   "diffuse": {
     "values": [
-      0.7297400832176208,
-      0.7297400832176208,
-      0.7297400832176208
+      0.8980392217636108,
+      0.8784313797950745,
+      0.40784314274787903
     ]
   },
   "specular": {
     "values": [
-      0.7297400832176208,
-      0.7297400832176208,
-      0.7297400832176208
+      1,
+      1,
+      1
     ]
   },
   "emissive": {
     "values": [
-      0,
-      0,
-      0
+      1,
+      1,
+      1
     ]
   },
   "emissiveIntensity": 0,
@@ -48,18 +48,18 @@
       1
     ]
   },
-  "opacity": 1,
-  "shininess": 6.311791896820068,
-  "metalness": 0,
-  "roughness": 1,
-  "refraction": 0.5,
+  "opacity": 0.6800000071525574,
+  "shininess": 8,
+  "metalness": 0.10000000149011612,
+  "roughness": 0.20000000298023224,
+  "refraction": 1.5,
   "rimIntensity": 1,
   "bloomThreshold": 0.800000011920929,
-  "normalScale": 1,
+  "normalScale": 0.20000000298023224,
   "heightScale": 1,
-  "glowThreshold": 0,
+  "glowThreshold": 0.11999999731779099,
   "diffuseMap": {
-    "uuid": "9F6B5CB4-A449-40E5-BC41-C65F6EB0A7F0"
+    "uuid": "42688073-14F1-455C-8CC4-1A5B67781BDB"
   },
   "normalMap": {
     "uuid": "00000000-0000-0000-0000-000000000002"
@@ -96,7 +96,7 @@
   "tilingOffset": {
     "values": [
       1,
-      1,
+      0.33000001311302185,
       0,
       0
     ]
@@ -141,5 +141,5 @@
   "absorbtion": 0,
   "aberrations": 1,
   "ambientIntensity": 0.3499999940395355,
-  "mapsStates": 127
+  "mapsStates": 1
 }
